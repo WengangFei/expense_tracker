@@ -4,7 +4,6 @@ import IncomeExpenses from './components/incomeExpenses';
 import TransactionList from './components/transactionList';
 import AddTransaction from './components/addTransaction';
 import './App.css';
-import Practice from './components/practice';
 import { GlobalProvider } from './contenxt/globalState';
 
 
@@ -20,7 +19,6 @@ function App() {
           <IncomeExpenses />
           <TransactionList />
           <AddTransaction />
-          <Practice />
       </div>
     </GlobalProvider>
   );
